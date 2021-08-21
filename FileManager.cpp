@@ -42,18 +42,37 @@ void FileManager::createFile(){
     File_TXT.close();
 }
 
-void FileManager::readFile(){
+ int* FileManager::readFile(){
 
     //Almacena las líneas del archivo
     string textFromFile;
 
-    //Abre el archivo
-    ifstream readFromFile(FileName+".txt");
+    int array[1536];
 
+    //Abre el archivo
+    //ifstream readFromFile(FileName+".txt");
+
+    /*
     //loop para leer el archivo
     while (getline(readFromFile,textFromFile)){
         cout<<textFromFile;
+
     }
+     */
+    ifstream file(FileName+".txt");
+    if(file.is_open())
+    {
+        int myArray[1536];
+
+        for(int i = 0; i < numberOfIntegers; ++i)
+        {
+            file >> myArray[i];
+        }
+    }
+
+    return
+
+
 }
 void FileManager::createResultFile(){
 
