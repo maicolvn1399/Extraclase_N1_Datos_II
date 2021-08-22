@@ -46,7 +46,7 @@ public:
     /**
      * @brief Método que permite leer un archivo de extensión .txt
      */
-    void readFile();
+    int* readFile();
 
 
     /**
@@ -57,5 +57,6 @@ public:
 public:
     std::string FileName;
     int numberOfIntegers;
+    int myArray[1536];
 
 };

@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/FileManager.cpp
-FileManager.h
-C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/FileManager.h
+C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/PagedArray.cpp
+PagedArray.h
+C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/PagedArray.h
 iostream
--
-fstream
--
-string
--
+C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/iostream
 
-C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/FileManager.h
+C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/PagedArray.h
 fstream
 C:/Users/Michael/Documents/TEC/II Semestre 2021/Algoritmos y Estructuras de Datos II/Extraclase_N1_Datos_II/fstream
 iostream

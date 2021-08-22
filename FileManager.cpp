@@ -30,56 +30,65 @@ void FileManager::setNumberOfIntegers(int numberOfIntegers) {
 }
 
 void FileManager::createFile(){
-    // Crea y abre el archivo
+    //Crea y abre el archivo
     ofstream File_TXT(FileName+".txt");
 
     for (int i = 0; i < numberOfIntegers; i++) {
-        // Escribe el archivo
+        //Escribe el archivo
         int random = 1 + (rand() % 5001);
         File_TXT << to_string(random) + ",";
     }
-
     File_TXT.close();
 }
 
- int* FileManager::readFile(){
+int* FileManager::readFile(){
 
     //Almacena las líneas del archivo
     string textFromFile;
 
-    int array[1536];
 
     //Abre el archivo
     //ifstream readFromFile(FileName+".txt");
 
-    /*
-    //loop para leer el archivo
-    while (getline(readFromFile,textFromFile)){
-        cout<<textFromFile;
+    ifstream infile;
+    //int myArray[1536];
 
-    }
-     */
-    ifstream file(FileName+".txt");
-    if(file.is_open())
+    int i=0;
+
+    char cNum[10] ;
+    infile.open ("Archivo_Enteros.txt", ifstream::in);
+    if (infile.is_open())
     {
-        int myArray[1536];
-
-        for(int i = 0; i < numberOfIntegers; ++i)
+        while (infile.good())
         {
-            file >> myArray[i];
+            infile.getline(cNum, 256, ',');
+            myArray[i]= atoi(cNum) ;
+            i++ ;
         }
+        infile.close();
+    }
+    else
+    {
     }
 
-    return
 
+    //for (int i = 1536 - 1; i >= 0; i--)
+        //cout << myArray[i] << endl;
 
+    /*
+    for(int i = 0; i<1536-1; i++){
+        cout << myArray[i] << endl;
+    }
+    */
+    return myArray;
 }
-void FileManager::createResultFile(){
 
-    ofstream resultFile("Archivo_Resultado.txt");
+    void FileManager::createResultFile(){
 
-    resultFile <<"Números ordenados";
+        ofstream resultFile("Archivo_Resultado.txt");
 
-    resultFile.close();
+        resultFile <<"Números ordenados";
 
-}
+        resultFile.close();
+
+    }

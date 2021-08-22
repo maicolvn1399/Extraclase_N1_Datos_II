@@ -6,12 +6,13 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj: \
  ../FileManager.h
 CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj: \
  ../PagedArray.cpp \
- ../PaggedArray.h
+ ../PagedArray.h
 CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj: \
  ../QuickSort.cpp \
  ../QuickSort.h
 CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.obj: \
  ../FileManager.h \
+ ../PagedArray.h \
  ../QuickSort.h \
  ../main.cpp \
  ../perro.h

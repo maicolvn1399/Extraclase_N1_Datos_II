@@ -2,6 +2,7 @@
 #include "perro.h"
 #include "QuickSort.h"
 #include "FileManager.h"
+#include "PagedArray.h"
 using namespace std;
 #include <iostream>
 #include <fstream>
@@ -15,6 +16,22 @@ int main()
 
     cout<<"Information from file:\n" << endl;
     file1.readFile();
+
+
+    int array[1536];
+    copy(begin(file1.myArray), end(file1.myArray), begin(array));
+
+
+    //cout << "from main" << endl;
+
+    //for(int i = 0; i<1536; i++){
+        //cout <<array[i] << endl;
+    //}
+
+
+    PagedArray pA = PagedArray(array);
+    cout << "to string ---- " << endl;
+    cout << to_string(pA[0]) << endl;
 
 
     //int array[] = {95, 45, 48, 98, 1, 485, 65, 478, 1, 2325};
