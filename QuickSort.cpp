@@ -8,7 +8,7 @@ using namespace std;
 void QuickSort::printArray(int *array, int n)
 {
     for (int i = 0; i < n; ++i)
-        std::cout << array[i] << std::endl;
+        std::cout << to_string(i) + " - " + to_string(array[i]) << std::endl;
 }
 
 void QuickSort::quicksort(int *array, int low, int high)

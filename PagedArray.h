@@ -16,6 +16,6 @@ public:
     int& operator[](int);
 
 public:
-    int pageArray[256];
+    int pageArray[6];
     int *completeArray;
 };

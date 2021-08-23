@@ -28,11 +28,10 @@ int main()
         //cout <<array[i] << endl;
     //}
 
-
     PagedArray pA = PagedArray(array);
-    cout << "to string ---- " << endl;
-    cout << to_string(pA[0]) << endl;
+    //pA[0];
 
+    int n = pA[1];
 
     //int array[] = {95, 45, 48, 98, 1, 485, 65, 478, 1, 2325};
     //int n = sizeof(array)/sizeof(array[0]);
@@ -40,10 +39,11 @@ int main()
     //std::cout << "Before Quick Sort :" << std::endl;
     //QuickSort::printArray(array, n);
 
-    //QuickSort qs;
-    //qs.quicksort(array,0,n);
+    cout << "Running quicksort" << endl;
+    QuickSort qs;
+    qs.quicksort(array,255,n);
 
-    //qs.printArray(array,n);
+    qs.printArray(array,512);
 
 
     //QuickSort::quicksort(array, 0, n);
