@@ -78,22 +78,9 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\main.cpp" -o CMakeFiles\Extraclase_N1_Datos_II.dir\main.cpp.s
 
-CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj: CMakeFiles/Extraclase_N1_Datos_II.dir/flags.make
-CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj: ../perro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Extraclase_N1_Datos_II.dir\perro.cpp.obj -c "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\perro.cpp"
-
-CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\perro.cpp" > CMakeFiles\Extraclase_N1_Datos_II.dir\perro.cpp.i
-
-CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\perro.cpp" -o CMakeFiles\Extraclase_N1_Datos_II.dir\perro.cpp.s
-
 CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj: CMakeFiles/Extraclase_N1_Datos_II.dir/flags.make
 CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj: ../QuickSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Extraclase_N1_Datos_II.dir\QuickSort.cpp.obj -c "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\QuickSort.cpp"
 
 CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.i: cmake_force
@@ -106,7 +93,7 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.s: cmake_force
 
 CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj: CMakeFiles/Extraclase_N1_Datos_II.dir/flags.make
 CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj: ../FileManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Extraclase_N1_Datos_II.dir\FileManager.cpp.obj -c "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\FileManager.cpp"
 
 CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.i: cmake_force
@@ -119,7 +106,7 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.s: cmake_force
 
 CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj: CMakeFiles/Extraclase_N1_Datos_II.dir/flags.make
 CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj: ../PagedArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Extraclase_N1_Datos_II.dir\PagedArray.cpp.obj -c "C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\PagedArray.cpp"
 
 CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.i: cmake_force
@@ -133,7 +120,6 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.s: cmake_force
 # Object files for target Extraclase_N1_Datos_II
 Extraclase_N1_Datos_II_OBJECTS = \
 "CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.obj" \
-"CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj" \
 "CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj" \
 "CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj" \
 "CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj"
@@ -142,7 +128,6 @@ Extraclase_N1_Datos_II_OBJECTS = \
 Extraclase_N1_Datos_II_EXTERNAL_OBJECTS =
 
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.obj
-Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/FileManager.cpp.obj
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj
@@ -150,7 +135,7 @@ Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/build.make
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/linklibs.rsp
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/objects1.rsp
 Extraclase_N1_Datos_II.exe: CMakeFiles/Extraclase_N1_Datos_II.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Extraclase_N1_Datos_II.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Michael\Documents\TEC\II Semestre 2021\Algoritmos y Estructuras de Datos II\Extraclase_N1_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Extraclase_N1_Datos_II.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Extraclase_N1_Datos_II.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -224,30 +224,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-perro.obj: perro.cpp.obj
-.PHONY : perro.obj
-
-# target to build an object file
-perro.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj
-.PHONY : perro.cpp.obj
-
-perro.i: perro.cpp.i
-.PHONY : perro.i
-
-# target to preprocess a source file
-perro.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.i
-.PHONY : perro.cpp.i
-
-perro.s: perro.cpp.s
-.PHONY : perro.s
-
-# target to generate assembly for a file
-perro.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.s
-.PHONY : perro.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -269,9 +245,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... perro.obj
-	@echo ... perro.i
-	@echo ... perro.s
 .PHONY : help
 
 

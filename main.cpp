@@ -1,5 +1,4 @@
 #include <iostream>
-#include "perro.h"
 #include "QuickSort.h"
 #include "FileManager.h"
 #include "PagedArray.h"
@@ -21,7 +20,6 @@ int main()
     int array[1536];
     copy(begin(file1.myArray), end(file1.myArray), begin(array));
 
-
     //cout << "from main" << endl;
 
     //for(int i = 0; i<1536; i++){
@@ -31,7 +29,7 @@ int main()
     PagedArray pA = PagedArray(array);
     //pA[0];
 
-    int n = pA[1];
+    int n = pA[0];
 
     //int array[] = {95, 45, 48, 98, 1, 485, 65, 478, 1, 2325};
     //int n = sizeof(array)/sizeof(array[0]);
@@ -41,10 +39,9 @@ int main()
 
     cout << "Running quicksort" << endl;
     QuickSort qs;
-    qs.quicksort(array,255,n);
+    qs.quicksort(array,0,n);
 
-    qs.printArray(array,512);
-
+    qs.printArray(array,1536);
 
     //QuickSort::quicksort(array, 0, n);
 

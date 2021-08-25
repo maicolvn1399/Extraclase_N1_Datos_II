@@ -14,8 +14,4 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.obj: \
  ../FileManager.h \
  ../PagedArray.h \
  ../QuickSort.h \
- ../main.cpp \
- ../perro.h
-CMakeFiles/Extraclase_N1_Datos_II.dir/perro.cpp.obj: \
- ../perro.cpp \
- ../perro.h
+ ../main.cpp

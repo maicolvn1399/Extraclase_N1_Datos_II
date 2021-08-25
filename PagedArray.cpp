@@ -4,7 +4,7 @@
 
 #include "PagedArray.h"
 #include "iostream"
-#include "vector"
+
 
 using namespace std;
 
@@ -19,7 +19,6 @@ int& PagedArray::operator [] (int position){
         for(int i = 0; i < 256; i++){
             cout << to_string(i) + " " + to_string(completeArray[i]) << endl;
         }
-
         pageArray[0] = 1*256-1;
         cout << "Index in pageArray: "<< endl;
         cout << pageArray[0] << endl;
@@ -77,7 +76,9 @@ int& PagedArray::operator [] (int position){
         pageArray[5] = 6*256-1;
         cout << "Index in pageArray: "<< endl;
         cout << pageArray[5] << endl;
+
         return pageArray[5];
+
     }else{
         cout << "Index out of bounds" << endl;
     }
