@@ -52,7 +52,7 @@ public:
     /**
      * @brief Método que permite crear el archivo resultado, con los números enteros ordenados
      */
-    void createResultFile();
+    void createResultFile(int* completeArray);
 
 public:
 

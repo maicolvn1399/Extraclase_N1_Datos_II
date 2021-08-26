@@ -200,6 +200,30 @@ QuickSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.s
 .PHONY : QuickSort.cpp.s
 
+ReplacementAlg.obj: ReplacementAlg.cpp.obj
+.PHONY : ReplacementAlg.obj
+
+# target to build an object file
+ReplacementAlg.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/ReplacementAlg.cpp.obj
+.PHONY : ReplacementAlg.cpp.obj
+
+ReplacementAlg.i: ReplacementAlg.cpp.i
+.PHONY : ReplacementAlg.i
+
+# target to preprocess a source file
+ReplacementAlg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/ReplacementAlg.cpp.i
+.PHONY : ReplacementAlg.cpp.i
+
+ReplacementAlg.s: ReplacementAlg.cpp.s
+.PHONY : ReplacementAlg.s
+
+# target to generate assembly for a file
+ReplacementAlg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_N1_Datos_II.dir\build.make CMakeFiles/Extraclase_N1_Datos_II.dir/ReplacementAlg.cpp.s
+.PHONY : ReplacementAlg.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... QuickSort.obj
 	@echo ... QuickSort.i
 	@echo ... QuickSort.s
+	@echo ... ReplacementAlg.obj
+	@echo ... ReplacementAlg.i
+	@echo ... ReplacementAlg.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

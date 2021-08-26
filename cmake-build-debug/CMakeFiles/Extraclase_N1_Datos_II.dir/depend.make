@@ -10,8 +10,15 @@ CMakeFiles/Extraclase_N1_Datos_II.dir/PagedArray.cpp.obj: \
 CMakeFiles/Extraclase_N1_Datos_II.dir/QuickSort.cpp.obj: \
  ../QuickSort.cpp \
  ../QuickSort.h
+CMakeFiles/Extraclase_N1_Datos_II.dir/ReplacementAlg.cpp.obj: \
+ ../FileManager.h \
+ ../PagedArray.h \
+ ../QuickSort.h \
+ ../ReplacementAlg.cpp \
+ ../ReplacementAlg.h
 CMakeFiles/Extraclase_N1_Datos_II.dir/main.cpp.obj: \
  ../FileManager.h \
  ../PagedArray.h \
  ../QuickSort.h \
+ ../ReplacementAlg.h \
  ../main.cpp

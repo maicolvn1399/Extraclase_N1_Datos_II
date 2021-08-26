@@ -5,6 +5,8 @@
 using namespace std;
 #include <iostream>
 #include <fstream>
+#include "ReplacementAlg.h"
+
 
 
 int main()
@@ -26,10 +28,10 @@ int main()
         //cout <<array[i] << endl;
     //}
 
-    PagedArray pA = PagedArray(array);
+    //PagedArray pA = PagedArray(array);
     //pA[0];
 
-    int n = pA[0];
+    //int n = pA[0];
 
     //int array[] = {95, 45, 48, 98, 1, 485, 65, 478, 1, 2325};
     //int n = sizeof(array)/sizeof(array[0]);
@@ -37,11 +39,17 @@ int main()
     //std::cout << "Before Quick Sort :" << std::endl;
     //QuickSort::printArray(array, n);
 
-    cout << "Running quicksort" << endl;
-    QuickSort qs;
-    qs.quicksort(array,0,n);
+    //cout << "Running quicksort" << endl;
+    //QuickSort qs;
+    //qs.quicksort(array,0,n);
 
-    qs.printArray(array,1536);
+    //qs.printArray(array,1536);
+
+    ReplacementAlg RP = ReplacementAlg(array,3);
+    RP.replace();
+
+
+
 
     //QuickSort::quicksort(array, 0, n);
 
@@ -50,3 +58,5 @@ int main()
 
     return 0;
 }
+
+

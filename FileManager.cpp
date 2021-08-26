@@ -83,12 +83,17 @@ int* FileManager::readFile(){
     return myArray;
 }
 
-    void FileManager::createResultFile(){
+
+
+void FileManager::createResultFile(int *completeArray){
 
         ofstream resultFile("Archivo_Resultado.txt");
 
-        resultFile <<"Números ordenados";
+        for(int j = 0 ;j < numberOfIntegers; j++){
+            resultFile << to_string(completeArray[j]) + ",";
 
+        }
+        cout<< "Finished file" << endl;
         resultFile.close();
 
-    }
+}
