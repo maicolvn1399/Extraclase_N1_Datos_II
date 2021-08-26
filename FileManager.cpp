@@ -84,16 +84,14 @@ int* FileManager::readFile(){
 }
 
 
-
 void FileManager::createResultFile(int *completeArray){
 
         ofstream resultFile("Archivo_Resultado.txt");
 
         for(int j = 0 ;j < numberOfIntegers; j++){
             resultFile << to_string(completeArray[j]) + ",";
-
         }
+
         cout<< "Finished file" << endl;
         resultFile.close();
-
 }

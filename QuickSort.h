@@ -21,7 +21,7 @@ public:
     /**
      *@brief imprime los elementos del array en consola
      *@param array array que toma los elementos para ser impresos en consola
-     * @param i int que representa el límite de hasta donde el método imprime los elementos del array
+     *@param i int que representa el límite de hasta donde el método imprime los elementos del array
      */
     static void printArray(int *, int );
 
@@ -34,7 +34,6 @@ public:
     static void quicksort(int *, int , int );
 
 public:
-    //int array[];
     int n;
     int i;
 };

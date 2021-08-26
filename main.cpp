@@ -12,8 +12,6 @@ using namespace std;
 int main()
 {
     FileManager file1 = FileManager("Archivo_Enteros", 1536);
-    file1.createFile();
-    cout << "File created" << endl;
 
     cout<<"Information from file:\n" << endl;
     file1.readFile();
