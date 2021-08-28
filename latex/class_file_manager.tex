@@ -1,0 +1,138 @@
+\hypertarget{class_file_manager}{}\doxysection{File\+Manager Class Reference}
+\label{class_file_manager}\index{FileManager@{FileManager}}
+
+
+{\ttfamily \#include $<$File\+Manager.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_file_manager_a176d5de1034347f2a68cdb215e5b71f4}{File\+Manager}} (const std\+::string \&file\+Name, int \mbox{\hyperlink{class_file_manager_a6f2292eeb8a77583bc98f0f67a4d805c}{number\+Of\+Integers}})
+\begin{DoxyCompactList}\small\item\em Constructor de clase \mbox{\hyperlink{class_file_manager}{File\+Manager}}. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{class_file_manager_a94bdbb21ee21205db9c550ab92807d5d}{get\+File\+Name}} () const
+\item 
+void \mbox{\hyperlink{class_file_manager_a3a27822455ae5fcbd705cdd607fc553b}{set\+File\+Name}} (const std\+::string \&file\+Name)
+\item 
+int \mbox{\hyperlink{class_file_manager_afde3215e08f034f4db1cb424368ce09f}{get\+Number\+Of\+Integers}} () const
+\item 
+void \mbox{\hyperlink{class_file_manager_a19b30068e4943988ac1d1c2430c92f2b}{set\+Number\+Of\+Integers}} (int \mbox{\hyperlink{class_file_manager_a6f2292eeb8a77583bc98f0f67a4d805c}{number\+Of\+Integers}})
+\item 
+void \mbox{\hyperlink{class_file_manager_a23041a03b56b5d55986b8583ba15ce2a}{create\+File}} ()
+\begin{DoxyCompactList}\small\item\em Método para crear un archivo con extensión .txt y con números aleatorios en un rango de 1 a 5000. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{class_file_manager_a398055a47eb2d87f953f90230624817d}{read\+File}} ()
+\begin{DoxyCompactList}\small\item\em Método que permite leer un archivo de extensión .txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_file_manager_a4ca240b2e9edab3313a6f41e5499d2e4}{create\+Result\+File}} (int $\ast$complete\+Array)
+\begin{DoxyCompactList}\small\item\em Método que permite crear el archivo resultado, con los números enteros ordenados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_file_manager_aa451c7d3c4f42016fe75baa6d0aea867}{File\+Name}}
+\item 
+int \mbox{\hyperlink{class_file_manager_a6f2292eeb8a77583bc98f0f67a4d805c}{number\+Of\+Integers}}
+\item 
+int \mbox{\hyperlink{class_file_manager_a387855effc942fc8da677317ff986938}{my\+Array}} \mbox{[}1536\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_file_manager_a176d5de1034347f2a68cdb215e5b71f4}\label{class_file_manager_a176d5de1034347f2a68cdb215e5b71f4}} 
+\index{FileManager@{FileManager}!FileManager@{FileManager}}
+\index{FileManager@{FileManager}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{FileManager()}{FileManager()}}
+{\footnotesize\ttfamily File\+Manager\+::\+File\+Manager (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name,  }\item[{int}]{number\+Of\+Integers }\end{DoxyParamCaption})}
+
+
+
+Constructor de clase \mbox{\hyperlink{class_file_manager}{File\+Manager}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nombre del archivo \\
+\hline
+{\em number\+Of\+Integers} & Cantidad de enteros en el archivo \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_file_manager_a23041a03b56b5d55986b8583ba15ce2a}\label{class_file_manager_a23041a03b56b5d55986b8583ba15ce2a}} 
+\index{FileManager@{FileManager}!createFile@{createFile}}
+\index{createFile@{createFile}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{createFile()}{createFile()}}
+{\footnotesize\ttfamily void File\+Manager\+::create\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método para crear un archivo con extensión .txt y con números aleatorios en un rango de 1 a 5000. 
+
+\mbox{\Hypertarget{class_file_manager_a4ca240b2e9edab3313a6f41e5499d2e4}\label{class_file_manager_a4ca240b2e9edab3313a6f41e5499d2e4}} 
+\index{FileManager@{FileManager}!createResultFile@{createResultFile}}
+\index{createResultFile@{createResultFile}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{createResultFile()}{createResultFile()}}
+{\footnotesize\ttfamily void File\+Manager\+::create\+Result\+File (\begin{DoxyParamCaption}\item[{int $\ast$}]{complete\+Array }\end{DoxyParamCaption})}
+
+
+
+Método que permite crear el archivo resultado, con los números enteros ordenados. 
+
+\mbox{\Hypertarget{class_file_manager_a94bdbb21ee21205db9c550ab92807d5d}\label{class_file_manager_a94bdbb21ee21205db9c550ab92807d5d}} 
+\index{FileManager@{FileManager}!getFileName@{getFileName}}
+\index{getFileName@{getFileName}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{getFileName()}{getFileName()}}
+{\footnotesize\ttfamily const std\+::string \& File\+Manager\+::get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_file_manager_afde3215e08f034f4db1cb424368ce09f}\label{class_file_manager_afde3215e08f034f4db1cb424368ce09f}} 
+\index{FileManager@{FileManager}!getNumberOfIntegers@{getNumberOfIntegers}}
+\index{getNumberOfIntegers@{getNumberOfIntegers}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{getNumberOfIntegers()}{getNumberOfIntegers()}}
+{\footnotesize\ttfamily int File\+Manager\+::get\+Number\+Of\+Integers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_file_manager_a398055a47eb2d87f953f90230624817d}\label{class_file_manager_a398055a47eb2d87f953f90230624817d}} 
+\index{FileManager@{FileManager}!readFile@{readFile}}
+\index{readFile@{readFile}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{readFile()}{readFile()}}
+{\footnotesize\ttfamily int $\ast$ File\+Manager\+::read\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que permite leer un archivo de extensión .txt. 
+
+\mbox{\Hypertarget{class_file_manager_a3a27822455ae5fcbd705cdd607fc553b}\label{class_file_manager_a3a27822455ae5fcbd705cdd607fc553b}} 
+\index{FileManager@{FileManager}!setFileName@{setFileName}}
+\index{setFileName@{setFileName}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{setFileName()}{setFileName()}}
+{\footnotesize\ttfamily void File\+Manager\+::set\+File\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_file_manager_a19b30068e4943988ac1d1c2430c92f2b}\label{class_file_manager_a19b30068e4943988ac1d1c2430c92f2b}} 
+\index{FileManager@{FileManager}!setNumberOfIntegers@{setNumberOfIntegers}}
+\index{setNumberOfIntegers@{setNumberOfIntegers}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{setNumberOfIntegers()}{setNumberOfIntegers()}}
+{\footnotesize\ttfamily void File\+Manager\+::set\+Number\+Of\+Integers (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Integers }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_file_manager_aa451c7d3c4f42016fe75baa6d0aea867}\label{class_file_manager_aa451c7d3c4f42016fe75baa6d0aea867}} 
+\index{FileManager@{FileManager}!FileName@{FileName}}
+\index{FileName@{FileName}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{FileName}{FileName}}
+{\footnotesize\ttfamily std\+::string File\+Manager\+::\+File\+Name}
+
+\mbox{\Hypertarget{class_file_manager_a387855effc942fc8da677317ff986938}\label{class_file_manager_a387855effc942fc8da677317ff986938}} 
+\index{FileManager@{FileManager}!myArray@{myArray}}
+\index{myArray@{myArray}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{myArray}{myArray}}
+{\footnotesize\ttfamily int File\+Manager\+::my\+Array\mbox{[}1536\mbox{]}}
+
+\mbox{\Hypertarget{class_file_manager_a6f2292eeb8a77583bc98f0f67a4d805c}\label{class_file_manager_a6f2292eeb8a77583bc98f0f67a4d805c}} 
+\index{FileManager@{FileManager}!numberOfIntegers@{numberOfIntegers}}
+\index{numberOfIntegers@{numberOfIntegers}!FileManager@{FileManager}}
+\doxysubsubsection{\texorpdfstring{numberOfIntegers}{numberOfIntegers}}
+{\footnotesize\ttfamily int File\+Manager\+::number\+Of\+Integers}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_file_manager_8h}{File\+Manager.\+h}}\item 
+\mbox{\hyperlink{_file_manager_8cpp}{File\+Manager.\+cpp}}\end{DoxyCompactItemize}
